@@ -70,7 +70,7 @@ def main():
         elif choice == '3':
             amount = float(input("Enter amount to deposit: "))
             atm.deposit(amount)
-            print("Deposit successful.")
+            print("Deposit successful")
         elif choice == '4':
             amount = float(input("Enter amount to transfer: "))
             recipient_id = input("Enter recipient's user ID: ")
